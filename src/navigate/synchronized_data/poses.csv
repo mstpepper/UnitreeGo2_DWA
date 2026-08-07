@@ -1,0 +1,1 @@
+timestamp,image_filename,odom_x,odom_y,odom_z,odom_qx,odom_qy,odom_qz,odom_qw,gnss_latitude,gnss_longitude,gnss_altitude

@@ -1,0 +1,48 @@
+[35m[1mConsolidate compiler generated dependencies of target topic_to_image_node[0m
+[35m[1mConsolidate compiler generated dependencies of target bag_to_image_node[0m
+[35m[1mConsolidate compiler generated dependencies of target topic_to_image[0m
+[ 25%] Built target topic_to_image_node
+[ 50%] Built target bag_to_image_node
+[ 75%] Built target topic_to_image
+[35m[1mConsolidate compiler generated dependencies of target bag_to_image[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/bag_to_image.dir/src/bag_to_image.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libbag_to_image.so[0m
+[100%] Built target bag_to_image
+-- Install configuration: ""
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/lib/ros2_bag_to_image/topic_to_image_node
+-- Set runtime path of "/home/orin2/ros2_ws/install/ros2_bag_to_image/lib/ros2_bag_to_image/topic_to_image_node" to ""
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/lib/ros2_bag_to_image/bag_to_image_node
+-- Set runtime path of "/home/orin2/ros2_ws/install/ros2_bag_to_image/lib/ros2_bag_to_image/bag_to_image_node" to ""
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/include
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/include/bag_to_image
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/include/bag_to_image/bag_to_image.hpp
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/include/topic_to_image
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/include/topic_to_image/topic_to_image.hpp
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/environment/library_path.sh
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/environment/library_path.dsv
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/lib/libtopic_to_image.so
+-- Set runtime path of "/home/orin2/ros2_ws/install/ros2_bag_to_image/lib/libtopic_to_image.so" to ""
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/lib/libbag_to_image.so
+-- Set runtime path of "/home/orin2/ros2_ws/install/ros2_bag_to_image/lib/libbag_to_image.so" to ""
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/launch
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/launch/topic_to_image.xml
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/launch/bag_to_image.xml
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ament_index/resource_index/package_run_dependencies/ros2_bag_to_image
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ament_index/resource_index/parent_prefix_path/ros2_bag_to_image
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/environment/ament_prefix_path.sh
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/environment/ament_prefix_path.dsv
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/environment/path.sh
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/environment/path.dsv
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/local_setup.bash
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/local_setup.sh
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/local_setup.zsh
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/local_setup.dsv
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/package.dsv
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ament_index/resource_index/packages/ros2_bag_to_image
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ament_index/resource_index/rclcpp_components/ros2_bag_to_image
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/cmake/ros2_bag_to_imageConfig.cmake
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/cmake/ros2_bag_to_imageConfig-version.cmake
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/package.xml

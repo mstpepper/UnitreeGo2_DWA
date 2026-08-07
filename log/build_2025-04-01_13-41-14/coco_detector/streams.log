@@ -1,0 +1,37 @@
+[1.562s] Invoking command in '/home/orin2/ros2_ws/src/coco_detector': PYTHONPATH=/home/orin2/ros2_ws/build/coco_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin2/ros2_ws/install/coco_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/coco_detector build --build-base /home/orin2/ros2_ws/build/coco_detector/build install --record /home/orin2/ros2_ws/build/coco_detector/install.log --single-version-externally-managed install_data
+[2.115s] running egg_info
+[2.116s] creating ../../build/coco_detector/coco_detector.egg-info
+[2.117s] writing ../../build/coco_detector/coco_detector.egg-info/PKG-INFO
+[2.117s] writing dependency_links to ../../build/coco_detector/coco_detector.egg-info/dependency_links.txt
+[2.117s] writing entry points to ../../build/coco_detector/coco_detector.egg-info/entry_points.txt
+[2.117s] writing requirements to ../../build/coco_detector/coco_detector.egg-info/requires.txt
+[2.118s] writing top-level names to ../../build/coco_detector/coco_detector.egg-info/top_level.txt
+[2.121s] writing manifest file '../../build/coco_detector/coco_detector.egg-info/SOURCES.txt'
+[2.124s] reading manifest file '../../build/coco_detector/coco_detector.egg-info/SOURCES.txt'
+[2.125s] writing manifest file '../../build/coco_detector/coco_detector.egg-info/SOURCES.txt'
+[2.125s] running build
+[2.126s] running build_py
+[2.126s] creating /home/orin2/ros2_ws/build/coco_detector/build
+[2.126s] creating /home/orin2/ros2_ws/build/coco_detector/build/lib
+[2.126s] creating /home/orin2/ros2_ws/build/coco_detector/build/lib/coco_detector
+[2.126s] copying coco_detector/coco_detector_node.py -> /home/orin2/ros2_ws/build/coco_detector/build/lib/coco_detector
+[2.126s] copying coco_detector/__init__.py -> /home/orin2/ros2_ws/build/coco_detector/build/lib/coco_detector
+[2.127s] running install
+[2.127s] running install_lib
+[2.129s] creating /home/orin2/ros2_ws/install/coco_detector/lib/python3.10/site-packages/coco_detector
+[2.129s] copying /home/orin2/ros2_ws/build/coco_detector/build/lib/coco_detector/coco_detector_node.py -> /home/orin2/ros2_ws/install/coco_detector/lib/python3.10/site-packages/coco_detector
+[2.129s] copying /home/orin2/ros2_ws/build/coco_detector/build/lib/coco_detector/__init__.py -> /home/orin2/ros2_ws/install/coco_detector/lib/python3.10/site-packages/coco_detector
+[2.130s] byte-compiling /home/orin2/ros2_ws/install/coco_detector/lib/python3.10/site-packages/coco_detector/coco_detector_node.py to coco_detector_node.cpython-310.pyc
+[2.132s] byte-compiling /home/orin2/ros2_ws/install/coco_detector/lib/python3.10/site-packages/coco_detector/__init__.py to __init__.cpython-310.pyc
+[2.133s] running install_data
+[2.133s] creating /home/orin2/ros2_ws/install/coco_detector/share/ament_index
+[2.133s] creating /home/orin2/ros2_ws/install/coco_detector/share/ament_index/resource_index
+[2.133s] creating /home/orin2/ros2_ws/install/coco_detector/share/ament_index/resource_index/packages
+[2.133s] copying resource/coco_detector -> /home/orin2/ros2_ws/install/coco_detector/share/ament_index/resource_index/packages
+[2.133s] copying package.xml -> /home/orin2/ros2_ws/install/coco_detector/share/coco_detector
+[2.134s] running install_egg_info
+[2.137s] Copying ../../build/coco_detector/coco_detector.egg-info to /home/orin2/ros2_ws/install/coco_detector/lib/python3.10/site-packages/coco_detector-0.0.0-py3.10.egg-info
+[2.139s] running install_scripts
+[2.182s] Installing coco_detector_node script to /home/orin2/ros2_ws/install/coco_detector/lib/coco_detector
+[2.183s] writing list of installed files to '/home/orin2/ros2_ws/build/coco_detector/install.log'
+[2.256s] Invoked command in '/home/orin2/ros2_ws/src/coco_detector' returned '0': PYTHONPATH=/home/orin2/ros2_ws/build/coco_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin2/ros2_ws/install/coco_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/coco_detector build --build-base /home/orin2/ros2_ws/build/coco_detector/build install --record /home/orin2/ros2_ws/build/coco_detector/install.log --single-version-externally-managed install_data

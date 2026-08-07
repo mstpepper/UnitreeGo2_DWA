@@ -1,0 +1,58 @@
+-- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/orin2/ros2_ws/build/ros2_bag_to_image
+[35m[1mConsolidate compiler generated dependencies of target bag_to_image_node[0m
+[35m[1mConsolidate compiler generated dependencies of target topic_to_image_node[0m
+[35m[1mConsolidate compiler generated dependencies of target topic_to_image[0m
+[ 25%] Built target topic_to_image_node
+[ 50%] Built target bag_to_image_node
+[ 62%] [32m[1mLinking CXX shared library libtopic_to_image.so[0m
+[ 75%] Built target topic_to_image
+[35m[1mConsolidate compiler generated dependencies of target bag_to_image[0m
+[ 87%] [32m[1mLinking CXX shared library libbag_to_image.so[0m
+[100%] Built target bag_to_image
+-- Install configuration: ""
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/lib/ros2_bag_to_image/topic_to_image_node
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/lib/ros2_bag_to_image/bag_to_image_node
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/include
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/include/bag_to_image
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/include/bag_to_image/bag_to_image.hpp
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/include/topic_to_image
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/include/topic_to_image/topic_to_image.hpp
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/environment/library_path.sh
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/environment/library_path.dsv
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/lib/libtopic_to_image.so
+-- Set runtime path of "/home/orin2/ros2_ws/install/ros2_bag_to_image/lib/libtopic_to_image.so" to ""
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/lib/libbag_to_image.so
+-- Set runtime path of "/home/orin2/ros2_ws/install/ros2_bag_to_image/lib/libbag_to_image.so" to ""
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/launch
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/launch/topic_to_image.xml
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/launch/bag_to_image.xml
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ament_index/resource_index/package_run_dependencies/ros2_bag_to_image
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ament_index/resource_index/parent_prefix_path/ros2_bag_to_image
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/environment/ament_prefix_path.sh
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/environment/path.sh
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/environment/path.dsv
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/local_setup.bash
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/local_setup.sh
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/local_setup.zsh
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/local_setup.dsv
+-- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/package.dsv
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ament_index/resource_index/packages/ros2_bag_to_image
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ament_index/resource_index/rclcpp_components/ros2_bag_to_image
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/cmake/ros2_bag_to_imageConfig.cmake
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/cmake/ros2_bag_to_imageConfig-version.cmake
+-- Up-to-date: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/package.xml

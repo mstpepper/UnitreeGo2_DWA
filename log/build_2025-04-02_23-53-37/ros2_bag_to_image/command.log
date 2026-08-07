@@ -1,0 +1,4 @@
+Invoking command in '/home/orin2/ros2_ws/build/ros2_bag_to_image': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orin2/ros2_ws/src/ros2_bag_to_image -DCMAKE_INSTALL_PREFIX=/home/orin2/ros2_ws/install/ros2_bag_to_image
+Invoked command in '/home/orin2/ros2_ws/build/ros2_bag_to_image' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orin2/ros2_ws/src/ros2_bag_to_image -DCMAKE_INSTALL_PREFIX=/home/orin2/ros2_ws/install/ros2_bag_to_image
+Invoking command in '/home/orin2/ros2_ws/build/ros2_bag_to_image': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin2/ros2_ws/build/ros2_bag_to_image -- -j8 -l8
+Invoked command in '/home/orin2/ros2_ws/build/ros2_bag_to_image' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin2/ros2_ws/build/ros2_bag_to_image -- -j8 -l8

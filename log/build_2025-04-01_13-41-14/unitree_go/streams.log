@@ -1,0 +1,136 @@
+[0.044s] Invoking command in '/home/orin2/ros2_ws/build/unitree_go': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin2/slam_ws/install/transform_sensors:/home/orin2/slam_ws/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake /home/orin2/ros2_ws/src/unitree_go -DCMAKE_INSTALL_PREFIX=/home/orin2/ros2_ws/install/unitree_go
+[0.152s] -- The C compiler identification is GNU 11.4.0
+[0.253s] -- The CXX compiler identification is GNU 11.4.0
+[0.270s] -- Detecting C compiler ABI info
+[0.419s] -- Detecting C compiler ABI info - done
+[0.429s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.429s] -- Detecting C compile features
+[0.430s] -- Detecting C compile features - done
+[0.435s] -- Detecting CXX compiler ABI info
+[0.585s] -- Detecting CXX compiler ABI info - done
+[0.594s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.595s] -- Detecting CXX compile features
+[0.595s] -- Detecting CXX compile features - done
+[0.608s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.968s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.263s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.285s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.315s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.447s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.396s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.892s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.499s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.560s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.580s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.662s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.662s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.662s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.663s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.713s] -- Found PythonExtra: .so  
+[3.870s] -- Configuring done
+[3.982s] -- Generating done
+[4.004s] -- Build files have been written to: /home/orin2/ros2_ws/build/unitree_go
+[4.029s] Invoked command in '/home/orin2/ros2_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin2/slam_ws/install/transform_sensors:/home/orin2/slam_ws/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake /home/orin2/ros2_ws/src/unitree_go -DCMAKE_INSTALL_PREFIX=/home/orin2/ros2_ws/install/unitree_go
+[4.035s] Invoking command in '/home/orin2/ros2_ws/build/unitree_go': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin2/slam_ws/install/transform_sensors:/home/orin2/slam_ws/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --build /home/orin2/ros2_ws/build/unitree_go -- -j8 -l8
+[4.137s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.163s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.179s] [  1%] Built target ament_cmake_python_copy_unitree_go
+[4.468s] Traceback (most recent call last):
+[4.468s] Traceback (most recent call last):
+[4.468s] Traceback (most recent call last):
+[4.468s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 38, in <module>
+[4.468s]   File "/home/orin2/ros2_ws/build/unitree_go/ament_cmake_python/unitree_go/setup.py", line 1, in <module>
+[4.468s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 38, in <module>
+[4.468s]     from setuptools import find_packages
+[4.468s]     sys.exit(main())
+[4.468s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[4.469s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 34, in main
+[4.469s]     sys.exit(main())
+[4.469s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 34, in main
+[4.469s]     generate_cpp(args.generator_arguments_file)
+[4.469s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 39, in generate_cpp
+[4.469s]     generate_c(args.generator_arguments_file)
+[4.469s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 37, in generate_c
+[4.469s]     return generate_files(
+[4.469s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+[4.470s]     return generate_files(
+[4.470s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+[4.470s]     idl_file = parse_idl_file(locator)
+[4.470s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+[4.470s]     idl_file = parse_idl_file(locator)
+[4.470s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+[4.470s]     content = parse_idl_string(string, png_file=png_file)
+[4.470s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+[4.470s]     content = parse_idl_string(string, png_file=png_file)
+[4.470s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+[4.471s]     tree = get_ast_from_idl_string(idl_string)
+[4.471s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 88, in get_ast_from_idl_string
+[4.471s]     tree = get_ast_from_idl_string(idl_string)
+[4.471s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 88, in get_ast_from_idl_string
+[4.471s]     _parser = Lark(grammar, start='specification', maybe_placeholders=False)
+[4.471s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 383, in __init__
+[4.471s]     _parser = Lark(grammar, start='specification', maybe_placeholders=False)
+[4.471s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 415, in __init__
+[4.471s]     self.terminals, self.rules, self.ignore_tokens = self.grammar.compile(self.options.start, terminals_to_keep)
+[4.471s]   File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 728, in compile
+[4.472s]     self.parser = self._build_parser()
+[4.472s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 458, in _build_parser
+[4.472s]     return parser_class(self.lexer_conf, parser_conf, options=self.options)
+[4.472s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 242, in __call__
+[4.472s]     if len(params) != 0:  # Dont transform templates
+[4.472s] KeyboardInterrupt
+[4.473s]     return ParsingFrontend(lexer_conf, parser_conf, options)
+[4.473s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 57, in __init__
+[4.473s]     self.parser = create_parser(lexer_conf, parser_conf, options)
+[4.473s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 209, in create_earley_parser
+[4.473s]     return f(lexer_conf, parser_conf, options, resolve_ambiguity=resolve_ambiguity, debug=debug, tree_class=tree_class, **extra)
+[4.473s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 187, in create_earley_parser__dynamic
+[4.473s]     return xearley.Parser(lexer_conf, parser_conf, earley_matcher.match, **kw)
+[4.473s]   File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 29, in __init__
+[4.473s]     BaseParser.__init__(self, lexer_conf, parser_conf, term_matcher, resolve_ambiguity, debug, tree_class)
+[4.474s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 25, in __init__
+[4.474s]     analysis = GrammarAnalyzer(parser_conf)
+[4.474s]   File "/usr/lib/python3/dist-packages/lark/parsers/grammar_analysis.py", line 161, in __init__
+[4.475s]     import setuptools.version
+[4.475s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[4.475s]     self.FIRST, self.FOLLOW, self.NULLABLE = calculate_sets(rules)
+[4.475s]   File "/usr/lib/python3/dist-packages/lark/parsers/grammar_analysis.py", line 118, in calculate_sets
+[4.475s]     if update_set(FOLLOW[sym], FIRST[rule.expansion[j]]):
+[4.475s]   File "/usr/lib/python3/dist-packages/lark/grammar.py", line 25, in __hash__
+[4.475s]     import pkg_resources
+[4.475s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[4.476s]     def __hash__(self):
+[4.476s] KeyboardInterrupt
+[4.478s]     def _initialize_master_working_set():
+[4.478s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[4.478s]     f(*args, **kwargs)
+[4.478s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+[4.478s]     working_set = WorkingSet._build_master()
+[4.478s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+[4.479s]     ws = cls()
+[4.479s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+[4.479s]     self.add_entry(entry)
+[4.479s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+[4.479s]     for dist in find_distributions(entry, True):
+[4.479s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2073, in find_on_path
+[4.479s]     path_item_entries = _by_version_descending(filtered)
+[4.479s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2043, in _by_version_descending
+[4.479s]     return sorted(names, key=_by_version, reverse=True)
+[4.479s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2041, in _by_version
+[4.480s]     return [try_parse(part) for part in parts]
+[4.480s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2041, in <listcomp>
+[4.480s]     return [try_parse(part) for part in parts]
+[4.480s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2031, in try_parse
+[4.480s]     return packaging.version.Version(name)
+[4.480s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 281, in __init__
+[4.480s]     self._key = _cmpkey(
+[4.480s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 459, in _cmpkey
+[4.480s]     reversed(list(itertools.dropwhile(lambda x: x == 0, reversed(release))))
+[4.481s] KeyboardInterrupt
+[4.520s] gmake[2]: *** [CMakeFiles/unitree_go__cpp.dir/build.make:249: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp] Interrupt
+[4.521s] gmake[1]: *** [CMakeFiles/Makefile2:317: CMakeFiles/unitree_go__cpp.dir/all] Interrupt
+[4.522s] gmake[2]: *** [CMakeFiles/unitree_go__rosidl_generator_c.dir/build.make:113: rosidl_generator_c/unitree_go/msg/audio_data.h] Interrupt
+[4.522s] gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/unitree_go__rosidl_generator_c.dir/all] Interrupt
+[4.525s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_unitree_go_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_unitree_go_egg] Interrupt
+[4.529s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_unitree_go_egg.dir/all] Interrupt
+[4.529s] gmake: *** [Makefile:146: all] Interrupt

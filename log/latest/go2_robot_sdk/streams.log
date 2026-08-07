@@ -1,0 +1,24 @@
+[1.552s] Invoking command in '/home/orin2/ros2_ws/src/go2_robot_sdk': AMENT_PREFIX_PATH=/home/orin2/ros2_ws/install/unitree_go:/home/orin2/ros2_ws/install/go2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin2/ros2_ws/install/unitree_go:/home/orin2/ros2_ws/install/go2_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/orin2/ros2_ws/install/unitree_go/lib:/home/orin2/ros2_ws/install/go2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orin2/ros2_ws/build/go2_robot_sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin2/ros2_ws/install/go2_robot_sdk/lib/python3.10/site-packages:/home/orin2/ros2_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/orin2/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_robot_sdk build --build-base /home/orin2/ros2_ws/build/go2_robot_sdk/build install --record /home/orin2/ros2_ws/build/go2_robot_sdk/install.log --single-version-externally-managed install_data
+[2.031s] running egg_info
+[2.032s] writing ../../build/go2_robot_sdk/go2_robot_sdk.egg-info/PKG-INFO
+[2.036s] writing dependency_links to ../../build/go2_robot_sdk/go2_robot_sdk.egg-info/dependency_links.txt
+[2.036s] writing entry points to ../../build/go2_robot_sdk/go2_robot_sdk.egg-info/entry_points.txt
+[2.036s] writing requirements to ../../build/go2_robot_sdk/go2_robot_sdk.egg-info/requires.txt
+[2.037s] writing top-level names to ../../build/go2_robot_sdk/go2_robot_sdk.egg-info/top_level.txt
+[2.042s] reading manifest file '../../build/go2_robot_sdk/go2_robot_sdk.egg-info/SOURCES.txt'
+[2.043s] adding license file 'LICENSE'
+[2.044s] writing manifest file '../../build/go2_robot_sdk/go2_robot_sdk.egg-info/SOURCES.txt'
+[2.044s] running build
+[2.044s] running build_py
+[2.046s] running install
+[2.046s] running install_lib
+[2.049s] running install_data
+[2.052s] running install_egg_info
+[2.054s] removing '/home/orin2/ros2_ws/install/go2_robot_sdk/lib/python3.10/site-packages/go2_robot_sdk-0.0.0-py3.10.egg-info' (and everything under it)
+[2.055s] Copying ../../build/go2_robot_sdk/go2_robot_sdk.egg-info to /home/orin2/ros2_ws/install/go2_robot_sdk/lib/python3.10/site-packages/go2_robot_sdk-0.0.0-py3.10.egg-info
+[2.056s] running install_scripts
+[2.089s] Installing go2_driver_node script to /home/orin2/ros2_ws/install/go2_robot_sdk/lib/go2_robot_sdk
+[2.089s] Installing lidar_to_pointcloud script to /home/orin2/ros2_ws/install/go2_robot_sdk/lib/go2_robot_sdk
+[2.089s] Installing tts_node script to /home/orin2/ros2_ws/install/go2_robot_sdk/lib/go2_robot_sdk
+[2.090s] writing list of installed files to '/home/orin2/ros2_ws/build/go2_robot_sdk/install.log'
+[2.152s] Invoked command in '/home/orin2/ros2_ws/src/go2_robot_sdk' returned '0': AMENT_PREFIX_PATH=/home/orin2/ros2_ws/install/unitree_go:/home/orin2/ros2_ws/install/go2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin2/ros2_ws/install/unitree_go:/home/orin2/ros2_ws/install/go2_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/orin2/ros2_ws/install/unitree_go/lib:/home/orin2/ros2_ws/install/go2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orin2/ros2_ws/build/go2_robot_sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin2/ros2_ws/install/go2_robot_sdk/lib/python3.10/site-packages:/home/orin2/ros2_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/orin2/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_robot_sdk build --build-base /home/orin2/ros2_ws/build/go2_robot_sdk/build install --record /home/orin2/ros2_ws/build/go2_robot_sdk/install.log --single-version-externally-managed install_data

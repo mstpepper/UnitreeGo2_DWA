@@ -1,0 +1,32 @@
+{
+  "package_name": "unitree_go",
+  "non_idl_tuples": [
+    "/home/orin2/ros2_ws/src/unitree_go:msg/AudioData.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/BmsCmd.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/BmsState.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/Error.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/Go2FrontVideoData.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/HeightMap.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/IMUState.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/InterfaceConfig.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/LidarState.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/LowCmd.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/LowState.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/MotorCmd.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/MotorCmds.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/MotorState.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/MotorStates.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/PathPoint.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/Req.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/Res.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/SportModeCmd.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/SportModeState.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/TimeSpec.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/UwbState.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/UwbSwitch.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/VoxelMapCompressed.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/VoxelHeightMapState.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/WebRtcReq.msg",
+    "/home/orin2/ros2_ws/src/unitree_go:msg/WirelessController.msg"
+  ]
+}

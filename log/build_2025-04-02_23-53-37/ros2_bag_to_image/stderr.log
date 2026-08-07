@@ -1,0 +1,19 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/orin2/ros2_ws/src/ros2_bag_to_image/include/bag_to_image/bag_to_image.hpp:37[m[K,
+                 from [01m[K/home/orin2/ros2_ws/src/ros2_bag_to_image/src/bag_to_image.cpp:29[m[K:
+[01m[K/home/orin2/ros2_ws/src/ros2_bag_to_image/src/bag_to_image.cpp:[m[K In member function ‘[01m[Kvoid BagToImage::ReadBag()[m[K’:
+[01m[K/home/orin2/ros2_ws/src/ros2_bag_to_image/src/bag_to_image.cpp:98:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct rosbag2_storage::SerializedBagMessage[m[K’ {aka ‘[01m[Kstruct rosbag2_storage::SerializedBagMessage[m[K’} has no member named ‘[01m[Ktimestamp[m[K’; did you mean ‘[01m[Ktime_stamp[m[K’?
+   98 |           << " at " << bag_message->[01;31m[Ktimestamp[m[K);
+      |                                     [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/bag_to_image.dir/build.make:76: CMakeFiles/bag_to_image.dir/src/bag_to_image.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/bag_to_image.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,52 @@
+[0.837s] Invoking command in '/home/orin2/ros2_ws/build/ros2_bag_to_image': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin2/ros2_ws/build/ros2_bag_to_image -- -j8 -l8
+[0.969s] [35m[1mConsolidate compiler generated dependencies of target topic_to_image_node[0m
+[0.972s] [35m[1mConsolidate compiler generated dependencies of target bag_to_image_node[0m
+[0.994s] [35m[1mConsolidate compiler generated dependencies of target topic_to_image[0m
+[1.018s] [ 25%] Built target topic_to_image_node
+[1.044s] [ 50%] Built target bag_to_image_node
+[1.066s] [ 75%] Built target topic_to_image
+[1.107s] [35m[1mConsolidate compiler generated dependencies of target bag_to_image[0m
+[1.191s] [ 87%] [32mBuilding CXX object CMakeFiles/bag_to_image.dir/src/bag_to_image.cpp.o[0m
+[19.867s] [100%] [32m[1mLinking CXX shared library libbag_to_image.so[0m
+[20.367s] [100%] Built target bag_to_image
+[20.395s] Invoked command in '/home/orin2/ros2_ws/build/ros2_bag_to_image' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orin2/ros2_ws/build/ros2_bag_to_image -- -j8 -l8
+[20.401s] Invoking command in '/home/orin2/ros2_ws/build/ros2_bag_to_image': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orin2/ros2_ws/build/ros2_bag_to_image
+[20.417s] -- Install configuration: ""
+[20.417s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/lib/ros2_bag_to_image/topic_to_image_node
+[20.418s] -- Set runtime path of "/home/orin2/ros2_ws/install/ros2_bag_to_image/lib/ros2_bag_to_image/topic_to_image_node" to ""
+[20.418s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/lib/ros2_bag_to_image/bag_to_image_node
+[20.419s] -- Set runtime path of "/home/orin2/ros2_ws/install/ros2_bag_to_image/lib/ros2_bag_to_image/bag_to_image_node" to ""
+[20.420s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/include
+[20.420s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/include/bag_to_image
+[20.420s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/include/bag_to_image/bag_to_image.hpp
+[20.420s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/include/topic_to_image
+[20.420s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/include/topic_to_image/topic_to_image.hpp
+[20.421s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/environment/library_path.sh
+[20.421s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/environment/library_path.dsv
+[20.421s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/lib/libtopic_to_image.so
+[20.423s] -- Set runtime path of "/home/orin2/ros2_ws/install/ros2_bag_to_image/lib/libtopic_to_image.so" to ""
+[20.423s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/lib/libbag_to_image.so
+[20.427s] -- Set runtime path of "/home/orin2/ros2_ws/install/ros2_bag_to_image/lib/libbag_to_image.so" to ""
+[20.428s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/launch
+[20.428s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/launch/topic_to_image.xml
+[20.428s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/launch/bag_to_image.xml
+[20.429s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ament_index/resource_index/package_run_dependencies/ros2_bag_to_image
+[20.429s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ament_index/resource_index/parent_prefix_path/ros2_bag_to_image
+[20.429s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/environment/ament_prefix_path.sh
+[20.429s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/environment/ament_prefix_path.dsv
+[20.429s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/environment/path.sh
+[20.429s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/environment/path.dsv
+[20.430s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/local_setup.bash
+[20.431s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/local_setup.sh
+[20.433s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/local_setup.zsh
+[20.434s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/local_setup.dsv
+[20.434s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/package.dsv
+[20.434s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ament_index/resource_index/packages/ros2_bag_to_image
+[20.434s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ament_index/resource_index/rclcpp_components/ros2_bag_to_image
+[20.434s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.436s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.436s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/cmake/ament_cmake_export_libraries-extras.cmake
+[20.437s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/cmake/ros2_bag_to_imageConfig.cmake
+[20.438s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/cmake/ros2_bag_to_imageConfig-version.cmake
+[20.438s] -- Installing: /home/orin2/ros2_ws/install/ros2_bag_to_image/share/ros2_bag_to_image/package.xml
+[20.450s] Invoked command in '/home/orin2/ros2_ws/build/ros2_bag_to_image' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orin2/ros2_ws/build/ros2_bag_to_image
